@@ -1,4 +1,4 @@
-name = 'cloudflare-ok-memos'
+name = "cfmemos"
 main = "worker/src/index.ts"
 compatibility_date = "2025-05-01"
 
@@ -17,9 +17,9 @@ binding = "DB"
 database_name = "cfmemos-db"
 database_id = "9e9a266a-98fd-4956-a191-e424a2648011"
 
-#[[r2_buckets]]
-#binding = "BUCKET"
-#bucket_name = "cfmemos"
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "cfmemos"
 
 # Optional KV cache. Create a namespace with:
 #   wrangler kv namespace create cfmemos-cache
