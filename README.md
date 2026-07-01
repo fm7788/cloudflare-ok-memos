@@ -60,7 +60,7 @@ run_worker_first = ["/api/*", "/file/*", "/u/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "cfmemos-db"
-database_id = "你的实际数据库ID"
+database_id = "你的实际数据库ID  N9wX7pL2mK8qR4tY1vF6sZ3cH5jB0eD7aQ2nM8xP4kL9rT1u"
 ```
 
 ### 5. 设置生产密钥
