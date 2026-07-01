@@ -1,4 +1,4 @@
-name = "cfmemos"
+name = "cloudflare-ok-memos"
 main = "worker/src/index.ts"
 compatibility_date = "2025-05-01"
 
