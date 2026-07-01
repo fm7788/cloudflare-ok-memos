@@ -79,7 +79,8 @@ npm run db:migrate:remote
 ### 7. 构建并部署
 
 ```bash
-npm run deploy
+npm install && cd web && npm install && npm run build
+wrangler deploy
 ```
 
 部署完成后，访问 Workers 分配的域名，首次访问会进入管理员注册页面。
